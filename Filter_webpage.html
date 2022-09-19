@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Web Page</title>
+    <link rel="stylesheet" href="filter.css">
+    <style>
+        img {
+            height: 50px;
+            width: 50px;
+            position: absolute;
+            top: 5px;
+            left: 30px;
+            background-size: cover;
+            border-radius: 100%;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <span><img src="food2.jfif"></span>
+        <span class="headertext">Create an account</span>
+        <span class="headertext2">Login</span>
+    </div>
+    <div id="h2">
+        <h2>Break Fast Places in Mumbai</h2>
+    </div>
+    <br>
+    <div id="table">
+        <div style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: #192F60;     
+            position:absolute;top:30px;left:30px;
+            font-size:medium; font-weight: bold;margin: 10px;
+            ">Filters</div>
+        <div id="text2">Select Location</div>
+        <div id="location">
+            <select name="Select Location" style="height: 25px;width:200px;opacity: 1;">
+
+                <option value="Mumbai" selected>Mumbai</option>
+                <option value="Kolkata">Kolkata</option>
+                <option value="Chennai" disabled>Chennai</option>
+                <option value="Banglore">Banglore</option>
+            </select>
+        </div>
+        <div id="text3">
+            Cuisine
+        </div>
+        <div id="checkbox">
+            <input type="checkbox" name="North Indian" value="North Indian">North Indian <br><br>
+            <input type="checkbox" name="South Indian" value="South Indian">South Indian <br><br>
+            <input type="checkbox" name="Chinese" value="Chinese">Chinese<br><br>
+            <input type="checkbox" name="Fast Food" value="Fast Food">Fast Food <br><br>
+            <input type="checkbox" name="Street Food" value="Street Food">Street Food<br><br>
+
+        </div>
+        <div id="text4">Cost for two</div>
+        <div id="radio">
+            <input type="radio" name="Less than 500" value="Less than 500">Less than 500 <br><br>
+            <input type="radio" name="500 to 1000" value="500 to 1000">500 to 1000 <br> <br>
+            <input type="radio" name="1000 to 1500" value="1000 to 1500">1000 to 1500 <br><br>
+            <input type="radio" name="1500 to 2000" value="1500 to 2000">1500 to 2000 <br><br>
+            <input type="radio" name="2000+" value="2000+">2000+ <br><br>
+        </div>
+        <div id="text5">sort</div>
+        <div id="radio1">
+            <input type="radio" name="Less than 2000" value="Less than 2000">Less than 2000 <br><br>
+            <input type="radio" name="More than 2000" value="More than 2000">More than 2000 <br> <br>
+        </div>
+    
+        <div class="box" style="display:inline-block;position: absolute; left: 320px;">
+            <h2 class="header2">The Italianos</h2>
+            <h5 class="header3">FORT</h5>
+            <h5 style="color:#8C96AB;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position:absolute;left:180px;top:60px;
+            ">Shop 1, Plot D,Samruddhi Complex, Chincholi
+                </h6>
+                <div id="line"></div>
+                <div style="position: relative;top:190px;left: 80px;">
+                    <span>
+                        <pre
+                            style="color:#192F60 ;font-family: 'Times New Roman', Times, serif;">CUISINES:                Fast Food </pre>
+                        <pre
+                            style="color:#8C96AB ;font-family: 'Times New Roman', Times, serif;">COST FOR TWO:     $550</pre>
+                    </span>
+                </div>
+        </div>
+        <div id="img1" style="display: inline-block; position:absolute ; left:350px"></div>
+
+        <div class="box" style="position:absolute;left:320px;top:330px;">
+            <span id="img2"></span>
+            <h2 class="header2">The J</h2>
+            <h5 class="header3">FORT</h5>
+            <h5 style="color:#8C96AB;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            position:absolute;left:180px;top:60px;
+            ">Shop 1, Plot D,Samruddhi Complex, Chincholi
+                </h6>
+                <div id="line"></div>
+                <div style="position: relative;top:190px;left: 80px;">
+                    <span>
+                        <pre
+                            style="color:#192F60 ;font-family: 'Times New Roman', Times, serif;">CUISINES:                 Fast Food </pre>
+                        <pre
+                            style="color:#8C96AB ;font-family: 'Times New Roman', Times, serif;">COST FOR TWO:      $550</pre>
+                    </span>
+
+                </div>
+
+               
+        </div>
+        <div class="paragination" style="display: inline;">
+            <span style="height: 20px;width:20px;box-shadow: 1px 3px 3px; margin: 10px;">
+                <a href="#">&laquo;</a>
+                <a href="#">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+            </span>
+
+        </div>
+</body>
+
+</html>
